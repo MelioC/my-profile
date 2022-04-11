@@ -1,0 +1,104 @@
+body{
+	background: #FFFFFF ;
+	color: #6998AB ;
+	font-family: 'Karla', sans-serif ;
+	font size: 18px ; 
+}
+
+h1{
+	color: #404254 ;
+	font-family: 'Roboto Serif', sans-serif ;
+	font-size: 60px ;
+	font-weight: 425 ;
+}
+
+h2{
+	color: #153243 ;
+	font-weight: 500 ;
+	font-family: 'Nunito Sans', sans-serif ;
+	font-size: 35px;
+}
+
+p{
+	font-size: 20px
+}
+
+a{
+	text-decoration: none ;
+	color: #500232 ;
+	font-family: 'Rubik', sans-serif ;
+	font-weight: 450 ;
+	font-size: 18px ;
+	transition: color 0.3 ease ;
+}
+
+a:hover {	
+	color: #A68DAD ;
+}
+
+ul{
+	font-size: 20px
+}
+
+
+.PP{
+	border-radius: 50% ;
+	max-height: 200px ;
+}
+
+.shadowed{
+	box-shadow: 3px 3px 1px grey
+
+}
+
+.text{
+	text-align: center;
+}
+
+.container{
+	width: 700px ;
+	margin: 40px auto ;
+}
+
+@media(max-width: 980px) {
+	.container {
+		width: 800px;
+	}
+}
+
+@media(max-width: 700px) {
+	.container {
+		width: 580px;
+	}
+}
+
+@media(max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card{
+	background-color: #DDDDDD ;
+	padding: 30px ;
+	box-shadow: 3px 3px 1px grey ;
+	border-radius: 3px ;
+	margin: 40px 0px;
+	text-align: center;
+}
+
+.listes{
+	list-style: none;
+	padding-left: 0px;
+}
+.listes li {
+	display: inline ;
+	padding: 10px ;
+}
+.listes i{
+	font-size: 35px;
+}
+
+#intro p{
+	margin-bottom: 45px ;
+}
